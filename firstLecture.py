@@ -31,3 +31,53 @@ x = str("s1")  # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
 print(x, y, z)
+
+# Lists
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+print(len(fruits))
+print(fruits[1])
+
+new_fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(new_fruits[2:5])
+new_fruits[1] = "ayeza"
+new_fruits[2:4] = ["melon", "post", "cake"]
+print(new_fruits)
+
+new_fruits.append("aaron")  # at the end of list
+print(new_fruits)
+
+new_fruits.insert(0,"kenji")  # insert at specified index
+print(new_fruits)
+
+cities = ["sargodha", "lahore", "sargodha"]
+cities2 = ["karachi", "islamabad"]
+cities.extend(cities2)  # you can add any iterable object (tuples, sets, dictionaries etc.).
+print(cities2)
+print(cities)
+
+cities.remove("sargodha")  # removes the specified item
+print(cities)
+
+cities.pop(0)  # removes the specified index item, otherwise removes the last item
+print(cities)
+
+cities.sort()
+print(cities)
+
+cities.sort(reverse=True)
+print(cities)
+
+siblings = ["aqsa", "ayesha", "mariam", "aqsa"]
+family = siblings.copy()
+print(siblings)
+print(family)
+
+mariam = siblings.index("mariam")
+print(mariam)
+
+siblings.reverse()
+print(siblings)
+
+aqsa = siblings.count("aqsa")
+print(aqsa)
