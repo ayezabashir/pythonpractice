@@ -47,7 +47,7 @@ print(new_fruits)
 new_fruits.append("aaron")  # at the end of list
 print(new_fruits)
 
-new_fruits.insert(0,"kenji")  # insert at specified index
+new_fruits.insert(0, "kenji")  # insert at specified index
 print(new_fruits)
 
 cities = ["sargodha", "lahore", "sargodha"]
@@ -81,3 +81,15 @@ print(siblings)
 
 aqsa = siblings.count("aqsa")
 print(aqsa)
+
+# Tuples
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
+print(len(thistuple))
+
+# Comma hai to tuple hai
+thistuple = ("apple",)
+print(type(thistuple))
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
