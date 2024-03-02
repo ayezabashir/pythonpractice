@@ -32,7 +32,7 @@ y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
 print(x, y, z)
 
-# Lists
+### Lists
 fruits = ["apple", "banana", "cherry"]
 print(fruits)
 print(len(fruits))
@@ -82,7 +82,7 @@ print(siblings)
 aqsa = siblings.count("aqsa")
 print(aqsa)
 
-# Tuples
+### Tuples
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
 print(len(thistuple))
@@ -91,5 +91,14 @@ print(len(thistuple))
 thistuple = ("apple",)
 print(type(thistuple))
 #NOT a tuple
-thistuple = ("apple")
-print(type(thistuple))
+thisNottuple = ("apple")
+print(type(thisNottuple))
+
+### Sets
+myset = {"apple", "banana", "cherry"}
+print(myset)
+print(type(myset))
+
+# Duplicate values will be ignored:
+thisset = {"apple", "banana", "cherry", "apple"}
+print(thisset)
