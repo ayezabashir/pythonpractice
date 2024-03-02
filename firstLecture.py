@@ -32,7 +32,7 @@ y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
 print(x, y, z)
 
-### Lists
+### LISTS
 fruits = ["apple", "banana", "cherry"]
 print(fruits)
 print(len(fruits))
@@ -82,7 +82,7 @@ print(siblings)
 aqsa = siblings.count("aqsa")
 print(aqsa)
 
-### Tuples
+### TUPLES
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
 print(len(thistuple))
@@ -102,3 +102,28 @@ print(type(myset))
 # Duplicate values will be ignored:
 thisset = {"apple", "banana", "cherry", "apple"}
 print(thisset)
+
+### DICTIONARIES
+thisDictionary = {
+    "name" : "ayeza",
+    "job" : "frontend developer",
+    "age" : 23
+}
+print(thisDictionary)
+# duplicates are not allowed in dictionaries
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020  #  this will override 1964
+}
+print(thisdict)
+print(len(thisdict))
+# dictionary can contain ANY data type
+thisIsdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+print(thisIsdict)
