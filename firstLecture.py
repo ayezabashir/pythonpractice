@@ -1,4 +1,7 @@
-# You can get the data type of any object by using the type() function:
+# You can get the data type of any object by using the
+# type() function:
+
+# data types
 a = 5  # int
 b = "hello world"  # string
 c = 20.5  # float
