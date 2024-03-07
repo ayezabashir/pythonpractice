@@ -39,3 +39,10 @@ p = q = r = "Oranges"
 print(p)
 print(r)
 print(q)
+
+# Unpack a Collection
+my_list = ['pink', 'purple', 'green']
+l, m , n = my_list
+print(l)
+print(m)
+print(n)
