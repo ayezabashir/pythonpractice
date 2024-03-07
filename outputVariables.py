@@ -10,7 +10,7 @@ a = 'hi'
 b = 'ayeza'
 print(a, b)
 
-# with numbers it would be treated as an operation
+# with numbers, it would be treated as an operation
 c = 20
 d = 21
 print(c+d)
