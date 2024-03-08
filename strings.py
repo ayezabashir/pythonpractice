@@ -36,3 +36,9 @@ print("expensive" not in txt)
 # or
 if "free" in txt:
     print("Yes there is 'free' in text")
+
+# SLICING strings
+meet = "Greetings, Welcome Back"
+print(meet[2:3])   # starting index, and ending index (not including the end index)
+print(meet[:5])    # slice from start
+print(meet[10:])   # slice to end
