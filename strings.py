@@ -47,3 +47,9 @@ print(meet[10:])   # slice to end
 # Use negative indexes to start the slice from the end of the string
 b = "Hello, World"
 print(b[-5:-2])
+
+# CONCATENATION
+p = 'parcel'
+d = 'deliver'
+q = p+" "+d
+print(q)
