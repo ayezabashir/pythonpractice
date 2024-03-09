@@ -17,3 +17,9 @@ age = 23
 degree = 'MPhill'
 intro = "Hi my name is {}. I am {} years old and I am currently doing {}"
 print(intro.format(name, age, degree))
+
+# ESCAPE CHARACTERs
+# we use escape characters when we want to insert a character
+# that is illegal in strings e.g.
+text = "Hello love, I am \"Aaron Warner\""
+print(text)
