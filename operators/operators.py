@@ -37,3 +37,11 @@ print(a)
 # ^=	x ^= 3	x = x ^ 3
 # >>=	x >>= 3	x = x >> 3
 # <<=	x <<= 3	x = x << 3
+
+# COMPARISON OPERTAORS
+print(7==7)
+print(7!=8)
+print(8>7)
+print(7<8)
+print(7>=7)
+print(7<=7)
