@@ -50,3 +50,7 @@ print(7<=7)
 print(5==5 and 7>5)
 print(5==5 or 5>5)
 print(not(5<7))
+
+# IDENTITY OPERATOR
+print(5 is 5)
+print(6 is not 5)
