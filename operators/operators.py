@@ -45,3 +45,8 @@ print(8>7)
 print(7<8)
 print(7>=7)
 print(7<=7)
+
+# LOGICAL OPERATORS
+print(5==5 and 7>5)
+print(5==5 or 5>5)
+print(not(5<7))
