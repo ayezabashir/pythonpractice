@@ -60,3 +60,6 @@ x = range(0,9)
 print(4 in x)
 fruits = ['apple', 'banana']
 print('orange' not in x)
+
+# BITWISE OPERATOR
+
