@@ -31,3 +31,6 @@ print(fruits[0:2])
 # Range of negative indexing
 names = ["ayeza", "aqsa", "ayesha", "mariam", "hafsa"]
 print(names[-3:-1])
+
+if 'aqsa' in names:
+    print("Aqsa exists in list")
