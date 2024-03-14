@@ -34,3 +34,16 @@ print(names[-3:-1])
 
 if 'aqsa' in names:
     print("Aqsa exists in list")
+
+names[2]='bubbles'
+print(names)
+names[1:3]=['angry bird','ayesha']
+print(names)
+
+# REPLACING and adding more than 1 values
+names[1:2]=["aqsa","angry"]
+print(names)
+
+# replacing 2 or more values with one
+names[1:3]=["aqsa"]
+print(names)
