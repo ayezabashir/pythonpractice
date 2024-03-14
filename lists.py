@@ -19,3 +19,11 @@ print(type(list2))
 listConstr = list(("apple", "banana", "orange"))  # double round brackets
 print(listConstr)
 print(type(listConstr))
+
+# indexing
+print(fruits[0])
+# negative indexing means start from end
+print(fruits[-1])
+
+# Ranges
+print(fruits[0:2])
