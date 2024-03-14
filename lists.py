@@ -27,3 +27,7 @@ print(fruits[-1])
 
 # Ranges
 print(fruits[0:2])
+
+# Range of negative indexing
+names = ["ayeza", "aqsa", "ayesha", "mariam", "hafsa"]
+print(names[-3:-1])
