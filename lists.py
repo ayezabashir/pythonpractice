@@ -14,3 +14,8 @@ print(len(fruits))
 print(list2)
 print(list1)
 print(type(list2))
+
+# List Constructor
+listConstr = list(("apple", "banana", "orange"))  # double round brackets
+print(listConstr)
+print(type(listConstr))
