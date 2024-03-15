@@ -44,6 +44,6 @@ print(names)
 names[1:2]=["aqsa","angry"]
 print(names)
 
-# replacing 2 or more values with one
+# replacing 2 or more values with one value
 names[1:3]=["aqsa"]
 print(names)
