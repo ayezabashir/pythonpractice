@@ -1,6 +1,4 @@
-# to insert a new item without replacing existing values
-
-# INSERT()
+# INSERT()  insert a new item without replacing
 fruits= ["apple", "banana", "oranges"]
 fruits.insert(1,"watermelon")
 print(fruits)
