@@ -11,5 +11,4 @@ print(fruits)
 sibling = ["aqsa", "ayesha", "mariam"]
 parents = ["bushra"]
 parents.extend(sibling)
-sibling.extend(parents)
 print(parents)
