@@ -1,5 +1,5 @@
 def name():
-    nm = "Name: Ayeza Bashir\n"
+    nm = "Name: Ayeza \n"
     return nm + marks()
 
 def marks():
